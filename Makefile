@@ -6,7 +6,7 @@
 #    By: cchampou <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/09/26 19:13:24 by cchampou          #+#    #+#              #
-#    Updated: 2017/09/26 21:23:09 by cchampou         ###   ########.fr        #
+#    Updated: 2017/09/27 09:53:40 by cchampou         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ CC = clang
 
 CFLAGS = -I$(INC_DIR) -Ilibftprintf/includes
 
-SRC = main.c
+SRC = 				main.c parse.c
 
 SRC_DIR = src/
 
